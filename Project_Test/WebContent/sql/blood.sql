@@ -1,0 +1,47 @@
+create table bloodcount(
+	bc_idx int primary key,
+	bc_do_idx int not null,
+	bc_re_idx int not null,
+	bc_cnum varchar(20) not null,
+	bc_image_1 varchar(20) not null,
+	bc_btype char(5) not null,
+	bc_blood char(5) not null,
+	bc_RH char(5) not null,
+	bc_image_2 varchar(20) not null,
+	bc_status varchar(15) not null
+);
+insert into bloodcount values(17,17,17,'0111111111','card.jpg','j','a','p','jin.jpg','ing');
+insert into bloodcount values(18,18,18,'0222222222','card.jpg','h','o','m','jin.jpg','yes');
+
+insert into bloodcount values(1,1,null,'0322123456','card.jpg','j','a','p',null,'out');
+insert into bloodcount values(2,null,1,'0122654321',null,'j','a','m','jin.jpg','out');
+insert into bloodcount values(3,2,null,'0222456123','card.jpg','j','b','p',null,'in');
+insert into bloodcount values(4,null,2,'0122321654',null,'j','b','m','jin.jpg','in');
+insert into bloodcount values(5,3,null,'0222121212','card.jpg','j','ab','p',null,'out');
+insert into bloodcount values(6,null,3,'0122232323',null,'j','ab','m','jin.jpg','out');
+insert into bloodcount values(7,4,null,'0422343434','card.jpg','j','o','p',null,'in');
+insert into bloodcount values(8,null,4,'0422454545',null,'j','o','m','jin.jpg','in');
+insert into bloodcount values(9,5,null,'0322565656','card.jpg','h','a','p',null,'out');
+insert into bloodcount values(10,null,5,'0122676767',null,'h','a','m','jin.jpg','out');
+insert into bloodcount values(11,6,null,'0122787878','card.jpg','h','b','p',null,'in');
+insert into bloodcount values(12,null,6,'0522898989',null,'h','b','m','jin.jpg','in');
+insert into bloodcount values(13,7,null,'0122909090','card.jpg','h','ab','p',null,'out');
+insert into bloodcount values(14,null,7,'0222101010',null,'h','ab','m','jin.jpg','out');
+insert into bloodcount values(15,8,null,'0622010101','card.jpg','h','o','p',null,'in');
+insert into bloodcount values(16,null,8,'0622111222',null,'h','o','m','jin.jpg','in');
+insert into bloodcount values(17,9,null,'0222122456','card.jpg','j','a','p',null,'in');
+insert into bloodcount values(18,null,9,'0422652321',null,'j','a','m','jin.jpg','in');
+insert into bloodcount values(19,10,null,'0622451123','card.jpg','j','b','p',null,'out');
+insert into bloodcount values(20,null,10,'0222325654',null,'j','b','m','jin.jpg','out');
+insert into bloodcount values(21,11,null,'0522125212','card.jpg','j','ab','p',null,'in');
+insert into bloodcount values(22,null,11,'0322231323',null,'j','ab','m','jin.jpg','in');
+insert into bloodcount values(23,12,null,'0622363434','card.jpg','j','o','p',null,'out');
+insert into bloodcount values(24,null,12,'0122464545',null,'j','o','m','jin.jpg','out');
+insert into bloodcount values(25,13,null,'0522568656','card.jpg','h','a','p',null,'in');
+insert into bloodcount values(26,null,13,'0922676067',null,'h','a','m','jin.jpg','in');
+insert into bloodcount values(27,14,null,'0422789878','card.jpg','h','b','p',null,'out');
+insert into bloodcount values(28,null,14,'0922898189',null,'h','b','m','jin.jpg','out');
+insert into bloodcount values(29,15,null,'0322949090','card.jpg','h','ab','p',null,'in');
+insert into bloodcount values(30,null,15,'0222101010',null,'h','ab','m','jin.jpg','in');
+insert into bloodcount values(31,16,null,'0622010101','card.jpg','h','o','p',null,'out');
+insert into bloodcount values(32,null,16,'0622111222',null,'h','o','m','jin.jpg','out');
